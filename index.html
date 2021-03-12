@@ -4,59 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="main.css?v=1.0" rel="stylesheet" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
 
     <title>Cattoware</title>
-
+    <link rel="stylesheet" href="main.css">
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
-      :root {
-        --primary-color: #6698ff;
-      }
-      body {
-        background: #1c1c28;
-        font-family: "Roboto";
-        margin: 0;
-      }
-      nav {
-        background: #28293d;
-      }
-      a {
-        text-decoration: none;
-      }
-      .script-btn {
-        color: var(--primary-color);
-        background-color: transparent;
-        border: 3px solid var(--primary-color);
-        font-weight: bold;
-        padding-left: 1em;
-        padding-right: 1em;
-        border-radius: 5em;
-        float: right;
-      }
+      
     </style>
   </head>
   <body>
-    <nav class="navbar justify-content-between">
+    
+    <nav class = "container">
       <a class="navbar-brand" href="#">
         <img
           src="assets/logo.jpg"
           width="30"
           height="30"
-          class="d-inline-block align-top"
+          class="logo"
           alt=""
         />
         Cattoware
       </a>
-      <button class="script-btn" type="button" class="btn btn-outline">  
-        Script
-        </button>
+      <a class="script-btn" href="#">Script</a>
+      <nav class = "nav-bar">
+        <a id="tabs" class="home" href="#">Home</a>
+        <a id="tabs" class="games" href="#">Features</a>
+        <a id="tabs" class="about" href="#">Pricing</a>
+
+        
+
+      </nav>
+      
     </nav>
+    <div class = "main">
+      <img class = "background-image" src="assets/background.jpg" alt="">
+    </div>
+    
   </body>
 </html>
