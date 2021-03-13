@@ -58,7 +58,7 @@ a {
   color: white;
 }
 .navbar-nav {
-  margin-right: 5em;
+  margin-right: 7em;
 }
 hr {
   background-color: #077fff;
@@ -95,7 +95,7 @@ hr {
 }
 .fs-1{
   color:white;
-  font-size: 2em;
+  font-size: 1.5em;
   background: var(--primary-color);
   padding-block: 0.2em;
   padding-left: 0.2em;
