@@ -6,41 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Cattoware</title>
-    <link rel="stylesheet" href="main.css">
-    <meta content="Cattoware Best Roblox's Scripts Hub!" property="og:title">
-    <meta content="We always provide the best scripts for your exploits, besides that we also have a discord community that always willing to help you!" property="og:description">
+    <link rel="stylesheet" href="main.css" />
+    <meta content="Cattoware Best Roblox's Scripts Hub!" property="og:title" />
+    <meta
+      content="We always provide the best scripts for your exploits, besides that we also have a discord community that always willing to help you!"
+      property="og:description"
+    />
     <meta content="https://cattoware.tk property="og:url">
-    <meta content="https://cdn.discordapp.com/icons/760197485720371231/b2e5ac55c8c75c5e1862428380f1cb4e.png?size=256" property="og:image">
-    <meta content="#6698ff" data-react-helmet="true" name="theme-color">
+    <meta
+      content="https://cdn.discordapp.com/icons/760197485720371231/b2e5ac55c8c75c5e1862428380f1cb4e.png?size=256"
+      property="og:image"
+    />
+    <meta content="#6698ff" data-react-helmet="true" name="theme-color" />
     <link rel="shortcut icon" href="assets/logo.ico" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <style></style>
+    <script>
+      function copy() {
+        var copyText = document.getElementById("script");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        alert("Copied the text: " + copyText.value);
+      }
+    </script>
   </head>
-  <body onload="document.body.style.opacity='1'">
-    
-    <nav class = "container">
-      <a class="navbar-brand" href="#">
-        <img
-          src="assets/logo.png"
-          width="30"
-          height="30"
-          class="logo"
-          alt=""
-        />
-        Cattoware
-      </a>
-      <a class="script-btn" href="#">Script</a>
-      <nav class = "nav-bar">
-        <a id="tabs" class="home" href="#">Home</a>
-        <a id="tabs" class="games" href="#">Games</a>
-        <a id="tabs" class="about" href="#">About Us</a>
-        <a id="tabs" class="about" href="discord.html">Discord</a>
-        
+  <body>
+    <div class="background-div">
+      <div class="nav-bar">
+        <section class="nav-bar-2">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+              <img
+                src="assets/logo.png"
+                width="30"
+                height="30"
+                class="logo"
+                alt=""
+              />
+              Cattoware
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <img class="menu-icon" src="assets/list.svg" alt="" />
+            </button>
 
-      </nav>
-      
-    </nav>
-    <div class = "main">
-      <img class = "background-image" src="assets/background.jpg" alt="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Discord</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Cattoware
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Credits</a>
+                    <a class="dropdown-item" href="#">About Us</a>
+                    <hr />
+                    <button
+                      class="btn btn-outline-success my-2 my-sm-0"
+                      type="submit"
+                    >
+                      Get Script
+                    </button>
+                  </div>
+                </li>
+              </ul>
+              <ul class="navbar-nav mr-auto"></ul>
+            </div>
+          </nav>
+        </section>
+      </div>
+      <header>
+        <center class="container2">
+          <p class="fs-1">Cattoware Scripts Hub
+            <input
+            style="float: bottom;"
+              onclick="copy()"
+              type="text"
+              value="loadstring(game:HttpGet('http://cattoware.tk/main.lua'))()"
+              id="script"
+              readonly
+            />
+          </p>
+
+        </center>
+      </header>
     </div>
-    
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
