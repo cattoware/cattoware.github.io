@@ -1,0 +1,93 @@
+/*Background*/
+.background {
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+}
+
+/*NavBar*/
+.navbar-toggler .menu-icon {
+  color: white;
+  width: 25px;
+}
+
+.navbar-toggler:hover {
+  text-decoration: none;
+  border: 0px;
+}
+
+.navbar {
+  background-color: #FFC17C;
+}
+
+a {
+  color: #390B46;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+
+a:hover {
+  color: #934ea8;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5), 0 2px 2px rgba(255, 255, 255, 0.5), 0 4px 4px rgba(255, 255, 255, 0.5), 0 8px 8px rgba(255, 255, 255, 0.5), 0 16px 16px rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+  -webkit-transition: text-shadow 2s;
+  transition: text-shadow 2s;
+}
+
+.navbar-brand img {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+  width: 14%;
+  height: auto;
+}
+
+.navbar-brand:hover {
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5), 0 2px 2px rgba(255, 255, 255, 0.5), 0 4px 4px rgba(255, 255, 255, 0.5), 0 8px 8px rgba(255, 255, 255, 0.5), 0 16px 16px rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-menu {
+  background-color: wheat;
+  border-radius: 0px;
+}
+
+.dropdown-menu .dropdown-item {
+  text-shadow: 0 0px 0px;
+  background-color: wheat;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #e6b55c;
+  text-shadow: 0 0px 0px;
+}
+
+/*main*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8d8b2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #df9540;
+  -webkit-transition: background-color 5s;
+  transition: background-color 5s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #db892b;
+}
+
+body {
+  background: #eec79a;
+}
+/*# sourceMappingURL=main.css.map */
