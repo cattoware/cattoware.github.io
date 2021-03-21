@@ -6,6 +6,9 @@ body {
   -webkit-transition: opacity 2.5s;
   transition: opacity 2.5s;
   margin: 0;
+  
+  
+  
 }
 
 .nav-item {
@@ -130,8 +133,10 @@ body {
 }
 
 .script-container #script:hover {
-  -webkit-box-shadow: 0 1px 1px #00ff7328, 0 2px 2px #00ff7313, 0 4px 4px #00ff7328, 0 8px 8px #00ff7325, 0 16px 16px #00ff7356;
-          box-shadow: 0 1px 1px #00ff7328, 0 2px 2px #00ff7313, 0 4px 4px #00ff7328, 0 8px 8px #00ff7325, 0 16px 16px #00ff7356;
+  -webkit-box-shadow: 0 1px 1px #00ff7328, 0 2px 2px #00ff7313, 0 4px 4px #00ff7328,
+ 0 8px 8px #00ff7325, 0 16px 16px #00ff7356;
+          box-shadow: 0 1px 1px #00ff7328, 0 2px 2px #00ff7313, 0 4px 4px #00ff7328,
+ 0 8px 8px #00ff7325, 0 16px 16px #00ff7356;
 }
 
 .logo {
@@ -181,8 +186,10 @@ a {
 
 a:hover {
   text-decoration: none;
-  -webkit-box-shadow: 0 1px 1px #00ff73, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e, 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
-          box-shadow: 0 1px 1px #00ff73, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e, 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
+  -webkit-box-shadow: 0 1px 1px #00ff73, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e,
+ 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
+          box-shadow: 0 1px 1px #00ff73, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e,
+ 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
   color: #00ff73;
 }
 
@@ -197,7 +204,9 @@ nav {
 }
 
 nav:hover {
-  -webkit-box-shadow: 0 1px 1px #00ff731e, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e, 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
-          box-shadow: 0 1px 1px #00ff731e, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e, 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
+  -webkit-box-shadow: 0 1px 1px #00ff731e, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e,
+ 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
+          box-shadow: 0 1px 1px #00ff731e, 0 2px 2px #00ff731e, 0 4px 4px #00ff731e,
+ 0 8px 8px #00ff731e, 0 16px 16px #00ff731e;
 }
 /*# sourceMappingURL=main.css.map */
