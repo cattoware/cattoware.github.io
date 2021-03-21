@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cattori</title>
-    <meta http-equiv="refresh" content="3; URL=https://discord.gg/JDW5ytptsU" />
-    <meta content="Cattori Best Roblox's Scripts Hub! Over 40+ Games!" property="og:title">
-    <meta content="We always provide the best scripts for your exploits, besides that we also have a discord community that always willing to help you!" property="og:description">
-    <meta content="https://cattoware.tk property="og:url">
-    <meta content="https://cdn.discordapp.com/icons/822567973852020837/300c59fc99a628517438b479221636dc.webp?size=256 property="og:image">
-    <meta content="#6698ff" data-react-helmet="true" name="theme-color">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-
+    <meta content="Cattori Best Roblox's Scripts Hub! Over 40+ Games!" property="og:title">
+    <meta content="We always provide the best scripts for your exploits, besides that we also have a discord community that always willing to help you!" property="og:description">
+    <meta content="https://cattoware.tk property="og:url">
+    <meta content="https://cdn.discordapp.com/icons/822567973852020837/300c59fc99a628517438b479221636dc.webp?size=256 property="og:image">
+    <meta content="#6698ff" data-react-helmet="true" name="theme-color">
     <link rel="stylesheet" href="css/main.css" />
 
     <script>
@@ -38,6 +35,16 @@
         }
         `;
         document.head.appendChild(style);
+      }
+      function copy() {
+        var copyText = document.getElementById("script");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+        copyText.value = "Copied Text!";
+        setTimeout(function () {
+          copyText.value = ("loadstring(game:HttpGet('http://cattoware.tk/main.lua'))()");
+        }, 1000);
       }
     </script>
   </head>
@@ -62,11 +69,16 @@
       </ul>
     </nav>
 
-    <center class="container">
-      <div class="Panel">
-        <p class="head">Redirecting</h1>
-        <p class="cont">Redirecting to server...</p>
-      </div>
-    </center>
+    <div class="script-container">
+      <img class="logo" src="assets/logo.png" alt="" />
+      <input
+        onclick="copy()"
+        id="script"
+        type="text"
+        value="loadstring(game:HttpGet('http://cattoware.tk/main.lua'))()"
+        readonly
+      />
+      <p class="text">Best Roblox Script Hub With Over 40+ Games Comming...</p>
+    </div>
   </body>
 </html>

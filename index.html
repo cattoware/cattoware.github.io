@@ -4,100 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cattoware</title>
-
-    <!--Start Stylesheet-->
+    <title>Cattori</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/index.css" />
+    <meta content="Cattori Best Roblox's Scripts Hub! Over 40+ Games!" property="og:title">
+    <meta content="We always provide the best scripts for your exploits, besides that we also have a discord community that always willing to help you!" property="og:description">
+    <meta content="https://cattoware.tk property="og:url">
+    <meta content="https://cdn.discordapp.com/icons/822567973852020837/300c59fc99a628517438b479221636dc.webp?size=256 property="og:image">
+    <meta content="#6698ff" data-react-helmet="true" name="theme-color">
     <link rel="stylesheet" href="css/main.css" />
-    <!--End Stylesheet-->
-    <meta content="Cattoware Best Roblox's Scripts Hub!" property="og:title" />
-    <meta
-      content="We always provide the best scripts for your exploits, besides that we also have a discord community that always willing to help you!"
-      property="og:description"
-    />
-    <meta
-      content="https://cdn.discordapp.com/attachments/766161411909877761/822443379999637514/Cattori_Logo.png"
-      property="og:image"
-    />
-    <meta content="#6698ff" data-react-helmet="true" name="theme-color" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html"
-        ><img
-          src="https://cdn.discordapp.com/attachments/766161411909877761/822443379999637514/Cattori_Logo.png"
-          width="30"
-          height="30"
-          class="logo"
-          alt="logo"
-        />
-        Cattoware</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <img class="menu-icon" src="assets/list.svg" alt="list" />
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="discord.html">Discord</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Cattoware</a
-            >
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="credits.html">Credits</a>
-              <a class="dropdown-item" href="about.html">About Us</a>
-            </div>
-          </li>
-        </ul>
-      </div>
+    <script>
+      function load() {
+        
+        document.body.style.opacity='1'
+        var style = document.createElement('style');
+        style.innerHTML = `
+
+        @keyframes example {
+          from {width:100%;}
+          to {width:25%;}
+        }
+        .logo {
+          width:25%;
+         animation-name: example;
+         animation-duration: 1.5s;
+        }
+        `;
+        document.head.appendChild(style);
+        
+      }
+      
+    </script>
+  </head>
+  <body onload="load();">
+    <nav class="navbar justify-content-center">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="script.html">Script</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="discord.html">Discord</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://cattori.gitbook.io/cattori-docs/">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+      </ul>
     </nav>
 
-    <img
-      class="background"
-      src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/source.gif"
-    />
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <div class="an">
+      <img class="logo"src="assets/logo.png" alt="">
+      <p class="text">Best Roblox Script Hub With Over 40+ Games Comming...</p>
+
+      </div>  
+
   </body>
 </html>
